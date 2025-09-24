@@ -21,3 +21,15 @@ theta_lu = lu_solve((lu, piv), b)
 #  Solve using Least Squares  
 theta_ls, _, _, _ = np.linalg.lstsq(X_design, Y, rcond=None)
 
+#  Show Results 
+print("\nUsing LU Decomposition:")
+print(f"  Intercept = {theta_lu[0]:.4f}")
+print(f"  Slope     = {theta_lu[1]:.4f}")
+print(f"  Equation  : y = {theta_lu[0]:.2f} + {theta_lu[1]:.2f}x")
+
+print("\nUsing Standard Least Squares:")
+print(f"  Intercept = {theta_ls[0]:.4f}")
+print(f"  Slope     = {theta_ls[1]:.4f}")
+print(f"  Equation  : y = {theta_ls[0]:.2f} + {theta_ls[1]:.2f}x")
+
+
