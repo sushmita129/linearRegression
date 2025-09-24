@@ -14,3 +14,7 @@ X_design = np.vstack([np.ones(len(X)), X]).T   # 2D Matrix
 A = X_design.T @ X_design
 b = X_design.T @ Y
 
+#  Solve using LU Decomposition 
+lu, piv = lu_factor(A)
+theta_lu = lu_solve((lu, piv), b)
+
