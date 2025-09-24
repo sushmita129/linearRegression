@@ -31,7 +31,7 @@ pip install numpy scipy
 
 1. **Run the script**:  
     ```bash
-    python linear_regression_lu_ls.py
+    python nu.py
     ```
 
 2. **Input the data** when prompted:  
