@@ -7,5 +7,10 @@ y = list(map(float, input("Enter y values separated by space: ").split()))
 
 X = np.array(x)
 Y = np.array(y)
+# Add column of 1s for intercept
+X_design = np.vstack([np.ones(len(X)), X]).T   # 2D Matrix
 
+# Normal Equation (A θ = b)
+A = X_design.T @ X_design
+b = X_design.T @ Y
 
