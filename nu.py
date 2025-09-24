@@ -32,4 +32,9 @@ print(f"  Intercept = {theta_ls[0]:.4f}")
 print(f"  Slope     = {theta_ls[1]:.4f}")
 print(f"  Equation  : y = {theta_ls[0]:.2f} + {theta_ls[1]:.2f}x")
 
+#  Prediction 
+x_new = float(input("\nEnter a new x value for prediction: "))
+y_pred = theta_lu[0] + theta_lu[1] * x_new
+print(f"Prediction: For x = {x_new}, predicted y = {y_pred:.4f}")
+
 
