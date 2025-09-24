@@ -18,3 +18,6 @@ b = X_design.T @ Y
 lu, piv = lu_factor(A)
 theta_lu = lu_solve((lu, piv), b)
 
+#  Solve using Least Squares  
+theta_ls, _, _, _ = np.linalg.lstsq(X_design, Y, rcond=None)
+
