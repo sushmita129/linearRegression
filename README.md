@@ -125,4 +125,4 @@ Prediction: For x = 6.0, predicted y = 5.8000
 
 
 ### Contributors
-[![Contributors](https://contrib.rocks/image?repo=ASHFIQUL005/Team-Alpha_Numerical_Assignment)](https://github.com/ASHFIQUL005/Team-Alpha_Numerical_Assignment/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=sushmita129/linearRegression)](https://github.com/Asushmita129/linearRegression/graphs/contributors)
