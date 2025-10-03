@@ -1,0 +1,9 @@
+name: linearRegression
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - any-other-pip-package-you-need
