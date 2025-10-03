@@ -6,4 +6,3 @@ dependencies:
   - scikit-learn
   - pip
   - pip:
-      - any-other-pip-package-you-need
