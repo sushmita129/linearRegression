@@ -122,3 +122,7 @@ Prediction: For x = 6.0, predicted y = 5.8000
 - **Sadia** – Least Squares solution  
 - **Ananna** – Output formatting  
 - **Anik** – Prediction feature
+
+
+### Contributors
+[![Contributors](https://contrib.rocks/image?repo=ASHFIQUL005/Team-Alpha_Numerical_Assignment)](https://github.com/ASHFIQUL005/Team-Alpha_Numerical_Assignment/graphs/contributors)
